@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="slider-container">
+        <div id="slider">
+          <div><img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+          <div><img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+          <div><img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+          <div><img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+          <div><img src="http://picsum.photos/seed/picsum/600/400" alt=""></div>
+        </div>
+      </div>
+    
+      <div id="dots-container">
+        <span class="slider-button" onclick="goToSlide(0)">P1</span>
+        <span class="slider-button" onclick="goToSlide(1)">P2</span>
+        <span class="slider-button" onclick="goToSlide(2)">P3</span>
+        <span class="slider-button" onclick="goToSlide(3)">P4</span>
+        <span class="slider-button" onclick="goToSlide(4)">P5</span>
+      </div> 
+      
+      <div id="navigation">
+        <span class="slider-button2" onclick="prevSlide()">Left</span>
+        <span class="slider-button2" onclick="nextSlide()">Right</span>
+        <span class="slider-button2" onclick="toggleAutoSlide()">Stop/Start</span>
+      </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
